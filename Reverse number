@@ -1,0 +1,20 @@
+package Testonline6;
+
+import java.util.Scanner;
+
+public class reverse {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number");
+		int y=sc.nextInt();
+		int n=0,rev=0;
+		while(y>0) {
+			n=y%10;
+			rev=(rev*10)+n;
+			y=y/10;
+			System.out.println(rev);
+		}
+		
+	}
+
+}
