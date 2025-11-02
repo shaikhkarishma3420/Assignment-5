@@ -1,0 +1,13 @@
+package Testonline6;
+
+public class printserisofnumber {
+	public static void main(String[] args) {
+		int n=1;
+		System.out.print("1");
+		for(int k=2;k<=10;k++) {
+			n=k*k*k+1;
+			System.out.print(" "+n);
+		}
+	}
+
+}
