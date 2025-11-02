@@ -1,0 +1,22 @@
+package Testonline6;
+
+import java.util.Scanner;
+
+public class printcube {
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter a number");
+	int y=sc.nextInt();
+	int n=0,cube=0;
+	while(y>0) {
+		System.out.println("Y--->"+y);
+		n=y%10;
+		cube=n*n*n;
+		System.out.println("N----->"+cube);
+	
+	y=y/10;
+	System.out.println();
+	
+	}
+	}
+}
