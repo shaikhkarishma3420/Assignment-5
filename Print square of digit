@@ -1,0 +1,24 @@
+package Testonline6;
+
+import java.util.Scanner;
+
+public class printsquare {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number");
+		int y=sc.nextInt();
+		int n=0;
+		int square=0;
+		while(y>0) {
+			System.out.println("Y---->"+y);
+			n=y%10;
+			square=n*n;
+				System.out.println(square);
+			
+			y=y/10;
+			System.out.println();
+		}
+		
+	}
+
+}
