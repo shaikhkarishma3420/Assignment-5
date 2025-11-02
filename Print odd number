@@ -1,0 +1,22 @@
+package Testonline6;
+
+import java.util.Scanner;
+
+public class printodd {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int y=sc.nextInt();
+		int n=0;
+		while(y>0) {
+			System.out.println("Y--->"+y);
+			n=y%10;
+			if(n%2!=0) {
+			System.out.println("N--->"+n);
+		}
+			y=y/10;
+			System.out.println();
+	}
+
+}
+}
